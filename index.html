@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zamsolutions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #0fd4c3;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #0fd4c3;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .game-gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .game-item {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      flex: 1 1 calc(33.333% - 20px);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .game-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #0fd4c3;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      nav ul li {
+        margin: 5px 0;
+      }
+
+      .game-item {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Zamsolutions</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#contact">Contact</a></li>
+<li><a href="privacypolicy.html">Privacy Policy</a></li>
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" style="background: linear-gradient(to right, #0f2027, #203a43, #2c5364); color: white; text-align: center; padding: 80px 20px;">
+    <h2>We Provide You Best Gaming Experience</h2>
+    <p>There are at least two kinds of games. One could be called finite, the other infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded in 2017, Zamsolutions has become a leading Games Studio in Pakistan, serving as a home for all game enthusiasts. With a team of professional developers, animators, artists, engineers and so much more, we try to keep surprising our audience by producing the next best thing in the industry time and time again.</p>
+  </section>
+
+  <section id="games">
+    <h2>Popular Games</h2>
+    <div class="game-gallery">
+      <div class="game-item">Game 1</div>
+      <div class="game-item">Game 2</div>
+      <div class="game-item">Game 3</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>For inquiries and collaborations, reach out via email or follow us on social media.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zamsolutions. All Rights Reserved.</p>
+    <p>Designed by <a href="https://www.fiverr.com/hamzaakhtar" target="_blank">Hamza Akhtar</a></p>
+  </footer>
+
+</body>
+</html>
