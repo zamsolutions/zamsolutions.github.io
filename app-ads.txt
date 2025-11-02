@@ -1590,6 +1590,11 @@ pubmatic.com, 167188, RESELLER, 5d62403b186f2ace
 zetaglobal.net, 512, RESELLER
 themediagrid.com, WS2D8N, RESELLER, 35d5010d7789b49d
 
+///////////////////
+Capra
+
+google.com, pub-6496837757294367, DIRECT, f08c47fec0942fa0
+
 //////////////////////////////////////////////////////////// liftoff (Vungle)
 
 vungle.com,664204439965a70011578058,DIRECT,c107d686becd2d77
