@@ -2078,6 +2078,7 @@ xandr.com, 14082, RESELLER
 yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
 zmaticoo.com, 5135655, RESELLER
 
+google.com, pub-3481268687027240, DIRECT, f08c47fec0942fa0
 /////////////////////////////// Unity
 
 https://f964296f0.app-ads-txt.com/app-ads.txt
